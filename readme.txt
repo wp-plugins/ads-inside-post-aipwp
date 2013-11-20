@@ -4,28 +4,61 @@ Donate link: http://www.mytrickpages.com/AIPWP
 Tags: Adsense Ads Inside Post, Ads Inside Post, Ads Within Post Content
 Requires at least: 2.3
 Tested up to: 3.7.1
-Stable tag: 1.0
+Stable tag: 1.4
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A Simple Plugin That Let You Add Adsense Ads Within Post Content. Add ads anywhere you need just you need to add short code.
+A Simple Plugin That Let You Add Adsense Ads Within Post Content. Add ads anywhere via a short code.
 
 == Description ==
 
-A Simple Plugin That Let You Add Adsense Ads Within Post Content. Add ads anywhere you need just you need to add short code and
-there is lot more options. You can add styles to your Ad and you can select the alignment. Using this plugin you can not only add
-Ads to the post, This plugin give you ability to add any Javascript or HTML code within post.
+A Simple Plugin That Let You Add Adsense Ads Within Post Content. Add ads anywhere you need just you need to add abshort code and there is lot more options. You can add styles to your Ads and you can select the alignment. Using this plugin you can not only add Ads to the post, This plugin give you ability to add any Javascript or HTML code within post.
+
+See <a href="http://www.mytrickpages.com/aipwpdoc" target="_blank">Documentation</a>  
 
 
 == Installation ==
 
 1. Download the zip file and extract the contents.
+
 2. Upload the 'AIPWP' folder to your plugins directory (wp-content/plugins/).
+
 3. Activate the plugin through the 'Plugins' menu in WordPress.
-4. See 'Settings -> ADs Inside Post'
-5. Add your ad codes. 
-6. Use [showads ad=your_ad_name_goes_here] shortcode inside post to display ads.
-7. Enjoy!
+
+
+= How to Config =
+
+1. Go to ‘Settings -> ADs Inside Post’
+
+2. Click on ADD New to add new Ad
+
+3. Fill the data correctly and select Align type.
+
+4. Save form.
+
+= Adding Ad to Article =
+
+1. You need to use short code for this [showads ad=your_ad_name]
+
+2. This Short code has attribute call “ad” you need to add your Ad name to there.
+
+3. Ex : – If your Ad name is “Adsense_Ad_one” then your short code should be like [showads ad=Adsense_Ad_one]
+
+4. Just place short code where you need to display the Ad :)
+
+ 
+
+= How to modifying ADs = 
+
+1. Go to ‘Settings -> ADs Inside Post’
+
+2. Select Ad you need to modify from the drop down
+
+3. Click on Modify button
+
+4. Modify the data and click update
+
+5. Click on delete if you need to remove Ad
 
 
 == Frequently Asked Questions ==
@@ -45,3 +78,6 @@ You can use your AD Name as CSS ID, So just goto theme style.css file and add yo
 
 = 1.0 =
 (2013) ADs Inside Post Came Alive.
+
+= 1.4 =
+(2013) Added Styles to Ads Option.
