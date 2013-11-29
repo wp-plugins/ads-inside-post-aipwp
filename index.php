@@ -3,7 +3,7 @@
 Plugin Name: ADs Inside Post
 Plugin URI: http://www.mytrickpages.com/AIPWP
 Description: A Simple Plugin That Let You Add Adsense Ads Within Post Content. Add ads anywhere you need just you need to add short code.
-Version: 1.5
+Version: 1.4
 Author: Rajika Nanayakkara
 Author URI: http://www.mytrickpages.com
 License: GPL2
