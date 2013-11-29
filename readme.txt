@@ -81,3 +81,6 @@ You can use your AD Name as CSS ID, So just goto theme style.css file and add yo
 
 = 1.4 =
 (2013) Added Styles to Ads Option.
+
+= 1.5 =
+(2013.11.29) Optimized the core.

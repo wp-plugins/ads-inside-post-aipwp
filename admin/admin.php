@@ -15,8 +15,9 @@ function AIPWP_options() {
 		global $wpdb;
 		
 	echo '<div class="admin_page">';
-	echo '<h1>Adsense Inside Post</h1> <h3>by Rajika Nanayakkara <a target="_blank" href="http://www.mytrickpages.com/aipwp" > Visit Plugin Page</a></h3><h4>Use Shortcode "[showads ad=your_ad_name]" Inside Your Post To Display Ads. <br/> Read Documentation 
-	For More Instructions <a target="_blank" href="http://www.mytrickpages.com/aipwpdoc"> View Documentation</a></h4><hr/> ';
+	echo '<table><tr><td><h1>Adsense Inside Post</h1> <h3>by Rajika Nanayakkara <a target="_blank" href="http://www.mytrickpages.com/aipwp" > Visit Plugin Page</a></h3><h4>Use Shortcode "[showads ad=your_ad_name]" Inside Your Post To Display Ads. <br/> Read Documentation 
+	For More Instructions <a target="_blank" href="http://www.mytrickpages.com/aipwpdoc"> View Documentation</a></h4></td>
+	<td><a target="_blank" href="http://secure.hostgator.com/~affiliat/cgi-bin/affiliates/clickthru.cgi?id=rajika4ever-"><img src="http://tracking.hostgator.com/img/WordPress_Hosting/728x90-animated.gif" border="0"></a></td></tr></table><hr/> ';
 	if(isset($_POST['save']))
 {insert($_POST['ADNAME'],$_POST['ADCODE'],$_POST['style']);
 echo '<br/><br/><h3>New AD Has Been Added!</h3><br/><br/>';
