@@ -60,7 +60,7 @@
 		//Register Styles
     	function add_stylesheet() {
        
-            wp_register_style('base-style', plugins_url().'/AIPWP/style.css', array(), '1', 'screen'); 
+            wp_register_style('base-style', plugins_url('style.css',__FILE__), array(), '1', 'screen'); 
 			wp_enqueue_style('base-style');
         
     }

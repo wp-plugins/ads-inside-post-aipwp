@@ -84,3 +84,6 @@ You can use your AD Name as CSS ID, So just goto theme style.css file and add yo
 
 = 1.5 =
 (2013.11.29) Optimized the core.
+
+= 1.6 =
+(2013.11.29) Bug Fixing.
