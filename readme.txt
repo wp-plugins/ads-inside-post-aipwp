@@ -3,7 +3,7 @@ Contributors: rajika4ever
 Donate link: http://www.mytrickpages.com/AIPWP
 Tags: Adsense Ads Inside Post, Ads Inside Post, Ads Within Post Content
 Requires at least: 2.3
-Tested up to: 3.7.1
+Tested up to: 3.8
 Stable tag: 1.4
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
