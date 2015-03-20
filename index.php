@@ -28,7 +28,10 @@ class AIPWP {
 		add_action('init','showads');
 		add_action( 'admin_menu', 'AIPWP_menu' );
 		add_action('wp_print_styles', 'add_stylesheet');
+		add_action('admin_enqueue_scripts', 'pw_load_scripts');
 		add_shortcode('showads', 'showads');
+		add_action('admin_head', 'Sbutton');
+		
 	   }
 	   
 	
@@ -40,6 +43,10 @@ class AIPWP {
 $AIPWP = new AIPWP();
 $AIPWP->register();
 $AIPWP->hooks();
+
+
+
+
 
 
 
